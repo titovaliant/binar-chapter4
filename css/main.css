@@ -16,7 +16,7 @@
     left: 180px;
     top: 15px;
 
-    font-family: Open Sans;
+    font-family: 'Bebas Neue', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -33,7 +33,7 @@
     left: 37px;
     top: 12px;
 
-    font-family: Open Sans;
+    font-family: 'Bebas Neue', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 72px;
@@ -60,7 +60,7 @@
     left: 296px;
     top: 162px;
 
-    font-family: Open Sans;
+    font-family: 'Bebas Neue', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -105,7 +105,7 @@
     left: 865px;
     top: 162px;
 
-    font-family: Open Sans;
+    font-family: 'Bebas Neue', sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 36px;
@@ -143,6 +143,25 @@
     margin-top: 80px;
 }
 
+.vs_text {
+    /*position: absolute;*/
+    width: 296px;
+    height: 186px;
+    left: 589px;
+    top: 419px;
+
+    font-family: 'Bebas Neue', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 144px;
+    line-height: 196px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: #BD0000;
+}
+
 .refresh {
     width: 77px;
     height: 71px;
@@ -151,6 +170,18 @@
 }
 
 .kotak:hover {
-    background: lightgrey;
+    background: #C4C4C4;
+    border-radius: 30px;
     cursor: pointer;
+}
+
+.kotak_hijau {
+    width: 271.11px;
+    height: 166.93px;
+    left: 561px;
+    top: 489.89px;
+
+    background: #4C9654;
+    border-radius: 10px;
+    transform: rotate(-28.87deg);
 }

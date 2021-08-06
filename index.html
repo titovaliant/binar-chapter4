@@ -20,38 +20,64 @@
         <img class='logo1-header' src="./css/logo_1.png">
         <h1 class="h1-main-screen">ROCK PAPER SCISSORS</h1>
 
-        <!-- <div class="container-fluid bg-3 text-center"> -->
-        <!-- <div style="display: flex; justify-content: center;"> -->
         <div class="row" style="padding-top: 162px;">
 
+            <!-- Player Choice -->
             <div class="col-sm-4" style="display: flex; flex-direction: column; align-items: center;">
                 <h1 class="player1_text">player 1</h1>
-                <img class='player1_batu kotak'src="./css/batu.png">
-                <img class='player1_kertas kotak'src="./css/kertas.png">
-                <img class='player1_gunting kotak'src="./css/gunting.png">                    
+                
+                <div class='player_choices'>
+                  <div class="player_choices" id="p_batu">
+                    <img class='player1_batu kotak'src="./css/batu.png" alt="">
+                  </div>
+
+                  <div class="player_choices" id="p_kertas">
+                    <img class='player1_kertas kotak'src="./css/kertas.png" alt="">
+                  </div>
+                
+                  <div class="player_choices" id="p_gunting">
+                    <img class='player1_gunting kotak'src="./css/gunting.png" alt="">
+                  </div>                   
+                </div>
             </div>
 
+            <!-- Result  -->
             <div class="col-sm-4" style="display: flex; flex-direction: column; align-items: center; padding-top: 280px;">
+              <div class="result">
                     <p class="vs_text">vs</p>
+                    <div class="kotak_hijau" id="kotak_hijau" style="display: none;">
+                    </div>
+              </div>
             </div>
 
+            <!-- Computer Choice -->
             <div class="col-sm-4" style="display: flex; flex-direction: column; align-items: center;">
                 <h1 class="com_text">com</h1>
-                <img class='com_batu kotak'src="./css/batu.png">
-                <img class='com_kertas kotak'src="./css/kertas.png">
-                <img class='com_gunting kotak'src="./css/gunting.png">                      
+                
+                <div class='com_choices'>
+                  <div class="com_choices" id="com_batu">
+                    <img class='com_batu kotak'src="./css/batu.png" alt="">
+                  </div>
+
+                  <div class="com_choices" id="com_kertas">
+                    <img class='com_kertas kotak'src="./css/kertas.png" alt="">
+                  </div>
+                
+                  <div class="com_choices" id="com_gunting">
+                    <img class='com_gunting kotak'src="./css/gunting.png" alt="">
+                  </div>                   
+                </div>
             </div>
 
-            <div class="col-sm-12" style="display: flex; flex-direction: column; align-items: center;">
-              <img class='refresh kotak' src="./css/refresh.png">
+            <!-- Refresh -->
+            <div class="col-sm-12" style="display: flex; flex-direction: column; align-items: center; padding-top: 35px;">
+              <img class='refresh kotak' id="refreshing" src="./css/refresh.png">
             </div>
-        <!-- </div> -->
+        
       </div>      
 
-    
-    
+    <!-- script -->
+    <script src="script.js" charset="utf-8">
+  </script>
   </body>
-
-  <!-- script -->
-  
 </html>
