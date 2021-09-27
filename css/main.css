@@ -181,6 +181,16 @@
     left: 561px;
     top: 489.89px;
 
+    font-family: 'Bebas Neue', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    color: white;
+
     background: #4C9654;
     border-radius: 10px;
     transform: rotate(-28.87deg);
